@@ -3,6 +3,15 @@ import { defineNuxtConfig } from 'nuxt/config';
 import nodePolyfills from 'vite-plugin-node-stdlib-browser';
 
 export default defineNuxtConfig({
+  head: {
+    title: 'My App',
+    meta: [
+      { hid: 'Discover our versatile tool for managing SD cards and ESP32 devices! Optimize your development processes, efficiently secure data, and maximize the performance of your ESP32 projects. Stay in control with our user-friendly and powerful tool!', name: 'bitdastra Webflasher', content: 'Discover our versatile tool for managing SD cards and ESP32 devices! Optimize your development processes, efficiently secure data, and maximize the performance of your ESP32 projects. Stay in control with our user-friendly and powerful tool!' },
+      // other meta tags...
+    ],
+    // other properties...
+  },
+  // other properties...
   devtools: { enabled: true },
   routeRules: {
     // prerender index route by default
