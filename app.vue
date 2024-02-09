@@ -5,7 +5,7 @@
       <p>Your browser does not support the WebSerial API. Please switch to a compatible browser, such as Chrome or Edge, for full functionality.</p>
     </div>
     <Head>
-      <Title>Meshtastic Flasher</Title>
+      <Title>bitdastra Web-Flasher</Title>
       <Meta name="description" :content="title" />
     </Head>
     <section class="text-gray-400 bg-2C2D3C body-font">
@@ -58,7 +58,7 @@
       <div class="container mx-auto px-5 py-4 text-center">
         <p>
           Powered by
-          <a href="https://bitdastra.com/imprint"> bitdastra</a>
+          <a href="https://bitdastra.com/"> bitdastra</a>
           <a href="https://bitdastra.com/general-terms-and-conditions"> Terms and conditions</a>
           <a href="https://bitdastra.com/data-privacy"> Data privacy</a>
           | bitdastra is a social network of communication |
