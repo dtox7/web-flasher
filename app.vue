@@ -15,7 +15,7 @@
             <div class="mx-auto">
               <img src="@/assets/img/logo.svg" class="h-32 w-32" alt="Meshtastic Logo" />
               <h1 class="text-white mb-4 text-4xl font-extrabold">
-                Flasher
+                bitdastra <br> Web-Flasher
               </h1>
             </div>
           </div>
