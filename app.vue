@@ -58,9 +58,11 @@
       <div class="container mx-auto px-5 py-4 text-center">
         <p>
           Powered by
-          <a href="https://vercel.com/?utm_source=meshtastic&utm_campaign=oss">▲ Vercel</a>
-          | Meshtastic® is a registered trademark of Meshtastic LLC. |
-          <a href="https://meshtastic.org/docs/legal">Legal Information</a>.
+          <a href="https://bitdastra.com/imprint"> bitdastra</a>
+          <a href="https://bitdastra.com/general-terms-and-conditions"> Terms and conditions</a>
+          <a href="https://bitdastra.com/data-privacy"> Data privacy</a>
+          | bitdastra is a social network of communication |
+          <a href="https://bitdastra.com/imprint">Legal Information</a>.
         </p>
       </div>
     </footer>
