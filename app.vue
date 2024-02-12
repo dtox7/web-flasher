@@ -96,7 +96,7 @@ onMounted(() => {
 // Method to handle skipping to another site
 const skipToOtherSite = () => {
   // Replace 'YOUR_URL_HERE' with the URL you want to navigate to
-  window.location.href = 'https://example.com/';
+  window.location.href = 'https://bitdastra.com/';
 }
 </script>
 
