@@ -102,20 +102,20 @@ const skipToOtherSite = () => {
 
 <style>
   body {
-    background-color: #2C2D3C;
-  }
+    background-color: #121417;
+  }/*
   .invert { 
     -webkit-filter: invert(1);
     filter: invert(1);
-  }
+  }*/
   .bg-meshtastic {
-    background-color: #67EA94;
+    background-color: #48b1b5;
   }
  .footer {
-    background-color: #2C2D3C;
+    background-color: #121417;
   }
   .footer a {
-    color: #67EA94;
+    color: #48b1b5;
   }
   .footer a:hover {
     text-decoration: underline;

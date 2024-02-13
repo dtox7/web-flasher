@@ -1,6 +1,6 @@
 <template>
     <div class="relative w-full max-w-4xl max-h-full">
-        <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+        <div class="relative erase-uf bg-black rounded-lg shadow dark:bg-black-700">
             <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
                 <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
                     Erase Flash {{ deviceStore.$state.selectedTarget?.displayName }}
@@ -159,3 +159,9 @@ const openSerial = async () => {
     }
 };
 </script>
+
+<style>
+.erase-uf {
+    background: #121417;
+}
+</style>

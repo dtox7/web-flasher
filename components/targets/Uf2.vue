@@ -1,6 +1,6 @@
 <template>
     <div class="relative p-4 w-full max-w-md max-h-full">
-        <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+        <div class="relative flash-uf bg-black rounded-lg shadow dark:bg-black-700">
             <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
                 <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
                     Flash {{ deviceStore.$state.selectedTarget?.displayName }}
@@ -108,3 +108,8 @@ const downloadUf2FileUrl = computed(() => {
     return firmwareStore.getUf2FileUrl(firmwareFile);
 });
 </script>
+<style>
+.flash-uf {
+    background: #121417;
+}
+</style>
