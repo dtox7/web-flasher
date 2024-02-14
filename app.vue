@@ -64,7 +64,7 @@
         Bitdastra is a Social Network of Communication
         </p>
       </div>
-            <button class="skip-button" @click="skipToOtherSite">Go to Bitdastra.com</button>
+            <button class="skip-button" @click="skipToOtherSite">Go to Bitdastra Chat</button>
     </footer>
   </div>
 </template>
@@ -95,8 +95,7 @@ onMounted(() => {
 
 // Method to handle skipping to another site
 const skipToOtherSite = () => {
-  // Replace 'YOUR_URL_HERE' with the URL you want to navigate to
-  window.location.href = 'https://bitdastra.com/';
+  window.location.href = 'https://main.bitdastra.com/';
 }
 </script>
 
