@@ -64,7 +64,7 @@
         Bitdastra is a Social Network of Communication
         </p>
       </div>
-            <button class="skip-button" @click="skipToOtherSite">Go to Bitdastra Chat</button>
+            <button class="skip-button" @click="skipToOtherSite">Skip to Main</button>
     </footer>
   </div>
 </template>
