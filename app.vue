@@ -15,7 +15,7 @@
             <div class="mx-auto">
               <img src="@/assets/img/logo.svg" class="h-32 w-32" alt="Bitdastra Logo" />
               <h1 class="text-white mb-4 text-4xl font-extrabold">
-                Bitdastra Web Flasher
+                Smart Garden M5-Web-Flasher
               </h1>
             </div>
           </div>
@@ -23,7 +23,7 @@
         <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
           <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
             <div class="rounded-lg h-72 overflow-hidden flex flex-col items-center display-inline">
-              <img src="@/assets/img/hydra-pcb.svg" class="h-60 mb-2 invert mx-auto" alt="Device" />
+              <img src="@/assets/img/prod.png" class="h-60 mb-2 invert mx-auto" alt="Device" />
               <Device />
             </div>
             <h2 class="text-xl font-medium title-font text-white mt-5">Device</h2>
