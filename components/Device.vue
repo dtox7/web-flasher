@@ -37,7 +37,7 @@ import { useDeviceStore } from '../stores/deviceStore';
 const store = useDeviceStore();
 store.fetchList();
 
-const selectedTarget = computed(() => store.$state.selectedTarget?.hwModel ? store.$state.selectedTarget?.displayName : "Select Target Device")
+// const selectedTarget = computed(() => store.$state.selectedTarget?.hwModel ? store.$state.selectedTarget?.displayName : "Select Target Device")
 
 const setTarget = (target: DeviceHardware) => {
     store.setSelectedTarget(target);
