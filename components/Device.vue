@@ -1,20 +1,11 @@
 <template>
     <div>
-        <button id="dropdownDeviceButton" data-dropdown-toggle="dropdownDevices" class="display-inline content-center text-black bg-meshtastic hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center" type="button">
-            {{ selectedTarget.replace('_', '-') }}
-            <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-            </svg>
-        </button>
-        <div id="dropdownDevices" class="z-10 hidden bg-gray-200 divide-y divide-gray-500 rounded-lg shadow w-52">
-            <ul class="py-2 text-sm text-gray-900" aria-labelledby="dropdownDeviceButton">
-                <li v-for="target in store.$state.targets.sort((a, b) => a.displayName.localeCompare(b.displayName))">
-                    <a class="block px-4 py-1 hover:bg-gray-400 cursor-pointer" @click="setTarget(target)">
-                        {{ target.displayName }}
-                    </a>
-                </li>
-            </ul>
-        </div>
+<button id="dropdownDeviceButton" class="display-inline content-center text-black bg-meshtastic hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center" type="button" @click="setTarget(target)">
+    {{ selectedTarget.replace('_', '-') }}
+    <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+    </svg>
+</button>
         <button data-tooltip-target="tooltip-auto" class="mx-2 display-inline content-center px-3 py-2 text-xs font-medium text-center  hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg inline-flex items-center text-white hover:text-black"
             type="button"
             @click="store.autoSelectHardware">
